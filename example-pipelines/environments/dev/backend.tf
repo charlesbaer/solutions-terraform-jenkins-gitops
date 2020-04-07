@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "compliance-logging-export-tfstate"
     prefix = "env/dev"
   }
 }
